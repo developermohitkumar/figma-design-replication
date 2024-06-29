@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+position: relative;
+width: 1366px;
+height: 4634px;
+
+background: #FFFFFF;
+/* overflow-x: hidden; */
+
+}
+
+.Main_div {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 82px;
+    background: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    width:12%;
+    height: 50%;
+
+    left: 60px;
+    top: 28px;
+}
+.logo1{
+    width: 100%;
+    height:100%;
+
+}
+
+ nav {
+    position: absolute;
+    right: 63px;
+    top: 22px;
+}
+
+
+ ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ li {
+    margin-right: 20px;
+}
+
+ a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.04em;
+}
+
+
+
+.btn {
+    background-color: #FF5766;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.04em;
+}
+
+
+.list{
+    display: flex;
+    align-items: center; 
+
+}
+
+.box2{
+    position: absolute;
+width: 100%;
+height: 250px;
+background: linear-gradient(0deg, #4B5ADB 0%, #5A40C4 100%);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+}
+
+.heading2{
+    position: absolute;
+    width: 805px;
+    height: 54px;
+    left: calc(50% - 805px/2 + 4.5px);
+    top: 373px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    
+    text-align: center;
+    letter-spacing: -0.04em;
+    
+    color: #002863;   
+}
+
+
+.about_rishi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 30% 0;
+    width: 100%;
+    
+}
+
+.picture {
+    position: relative;
+    width: 25%; /* Adjust the width as needed */
+    margin: 10px;
+    text-align: center;
+}
+
+.picturetext {
+    margin-bottom: 20px;
+}
+
+.picture h2 {
+    width: 70%;
+    height: 300px;
+    padding: 10px;
+    margin-left: 12%;
+    background: #F5EAE2;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+    color: #002863;
+}
+
+.picture .image {
+    position: absolute;
+   top: 28%;
+}
+
+.picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    
+}
+
+.picture button.playbutton {
+    position: absolute;
+    width: 15%; /* Adjust the size as needed */
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.picture button.playbutton img {
+    width: 100%;
+    height: auto;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+}
+
+.arrow img {
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+}
+.line{
+    /* Vector 12 */
+
+position: absolute;
+width: 312px;
+height: 25px;
+
+top: 900px;
+
+display: flex;
+left: 40%;
+justify-content: center;
+border-radius: 33px;
+
+
+    
+}
+.happyparents {
+    position: absolute;
+    width: 950px;
+    height: 46px;
+    left: calc(50% - 950px/2);
+    top: 970px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700; /* Keep the default font weight bold */
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #002863;
+}
+
+.happyparents .unbold {
+    font-weight: 400; /* Change font weight to normal for this span */
+}
+
+.smarter {
+    position: absolute;
+    width: 629px;
+    height: 34px;
+    left: calc(50% - 629px/2 + 0.5px);
+    top: 1050px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #002863;
+}
+/*  cards */
+.review{
+    position: absolute;
+    /* background-color: red; */
+ top: 25%;
+ display: flex;
+ gap: 20px;
+left: 10%;
+}
+.reviewbox{
+width: 210px;
+height: 358px;
+right: 50%;
+top: 1023px;
+
+
+}
+.mom{
+    width: 150%;
+    height: 150%;
+}
+.border{
+   border-radius: 5%;
+    width: 315px;
+    padding: 10px;
+box-shadow: 2px 5px 10px -10px black;
+}
+.rectangle2{
+    /* Rectangle 5576 */
+
+position: absolute;
+width: 1366px;
+height: 160px;
+right: 0px;
+top: 2280px;
+
+background: #5A40C4;
+
+}
+.innerreactangle2{
+    /* Group 289886 */
+
+position: absolute;
+width: 982px;
+height: 64px;
+left: calc(50% - 982px/2);
+top: 2328px;
+
+
+}
+.rectangle2 {
+    /* Rectangle 5576 */
+    position: absolute;
+    width: 1366px;
+    height: 160px;
+    right: 0px;
+    top: 2280px;
+    background: #5A40C4;
+}
+
+.innerrectangle2 {
+    /* Group 289886 */
+    position: absolute;
+    width: 982px;
+    height: 64px;
+    left: calc(50% - 491px); /* Centering the inner rectangle */
+    top: 48px; /* Centering within the parent .rectangle2 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rectangle2text {
+    /* Imagine what your child can achieve! Explore personalized development that strengthens neural connections and builds a strong foundation for their future. */
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    margin: 0; /* Removing default margin of p */
+}
+
+.startnow {
+    /* Group 289885 */
+    width: 164px;
+    height: 54px;
+    background-color: #FF6F61; /* Assuming a color for the button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seeall{
+    /* Group 289871 */
+
+position: absolute;
+width: 114px;
+height: 54px;
+left: calc(50% - 114px/2);
+top: 34%;
+
+
+}
+.seealltext{
+    /* Group 289871 */
+
+position: absolute;
+width: 114px;
+height: 54px;
+left: calc(50% - 114px/2);
+top: 1%;
+color: red;
+border-color: red;
+border-radius: 10px;
+background-color: white;
+
+}
+.overview{
+    /* Group 290786 */
+
+position: absolute;
+width: 887px;
+height: 130px;
+left: calc(50% - 887px/2 + 0.5px);
+top: 1650px;
+
+display: flex;
+
+justify-content: space-between;
+}
+.icon{
+    /* Group 290785 */
+
+/* position: absolute; */
+width: 101px;
+height: 130px;
+/* left: 240px; */
+/* top: 1507px; */
+
+
+}
+.icon_box{
+width: 50px;
+height: 50px;
+bottom: 66.53%;
+
+
+}
+.icon_image{
+    width: 50px;
+    height: 50px; 
+}
+.icon_text{
+
+
+position: absolute;
+width: 101px;
+height: 68px;
+
+
+
+font-family: 'DM Sans';
+font-style: normal;
+
+font-size: 24px;
+line-height: 34px;
+/* or 142% */
+text-align: center;
+letter-spacing: -0.04em;
+
+color: #002863;
+margin-left:-22px ;
+
+}
+.International{
+    /* 107 International & 213 National Records */
+
+position: absolute;
+width: 200px;
+height: 68px;
+left: 55%;
+
+
+font-family: 'DM Sans';
+font-style: normal;
+
+font-size: 24px;
+line-height: 34px;
+/* or 142% */
+text-align: center;
+letter-spacing: -0.04em;
+
+color: #002863;  
+
+}
